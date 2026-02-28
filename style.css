@@ -5,7 +5,9 @@ body {
 }
 
 .container1 {
-  background-color: aqua;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 .logo img {
   width: 60px;
@@ -15,12 +17,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 50px;
+  /* padding-inline: 50px; */
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
+
+  /* max-width: 1200px; */
   width: 100%;
+  margin: 0 auto;
   /* inset: 0; */
 
   background-color: white;
@@ -34,6 +39,10 @@ body {
     gap: 20px;
     padding-block: 5px;
     padding-inline: 0;
+  }
+  .container1 {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
