@@ -32,8 +32,8 @@ body {
     flex-direction: column;
     height: auto;
     gap: 20px;
-
     padding-block: 5px;
+    padding-inline: 0;
   }
 }
 
