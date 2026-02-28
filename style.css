@@ -251,7 +251,13 @@ body {
   .summer {
     position: absolute;
     top: 15%;
+
     left: 10%;
+  }
+  .big-pic img {
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
   }
 }
 @media (max-width: 500px) {
